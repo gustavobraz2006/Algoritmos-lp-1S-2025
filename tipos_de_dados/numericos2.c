@@ -7,9 +7,9 @@ int main(int argc, char* argv[]){
     printf("Digite a idade: ");
     scanf("%d", &idade);
     printf("Digite a altura: ");
-    scanf("%d", &altura);
+    scanf("%f", &altura);
     printf("Digite o peso: ");
-    scanf("%d", &peso);
+    scanf("%f", &peso);
     printf("A idade eh %d\n", idade);
     printf("A altura eh %.2f\nO eh %.2f\n", altura, peso);
 
