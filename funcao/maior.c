@@ -11,7 +11,7 @@ int main(int argc, char* argv[]){
     int numeros[argc-1];
 
     if(argc != 3 && argc !=4){
-        printf("Informe 2 ou mais argumentos inteiros.");
+        printf("Informe 2 ou 3 argumentos inteiros.");
         return 1;
     }
 
